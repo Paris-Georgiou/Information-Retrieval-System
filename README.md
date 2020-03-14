@@ -3,9 +3,9 @@
 This project revolves around the use of Elasticsearch's API and how we can retrieve useful information from an online collection of files.
 This project was assigned to me during my Bachelor's curriculum. 
 
-First, I was given a collection of xml files which were faulty and needed to be altered. The goal was to remove the <text> tab and, without losing information, add an <objective> and a <title> tab. In order to complete that task I created the programm fix_xml.py. 
+First, I was given a collection of xml files (Parsed Files) which were faulty and needed to be altered. The goal was to remove the <text> tab and, without losing information, add an <objective> and a <title> tab. In order to complete that task I created the programm fix_xml.py. 
   
-Then, in order to add the collection on the Elasicsearch online tool, I needed to convert the xml files into json files. In order to complete that task I created the programm convert.py. 
+Then, in order to add the collection on the Elasicsearch online tool, I needed to convert the xml files into json files (Collection). In order to complete that task I created the programm convert.py. 
 
 After creating a custom index (Elasticsearch_Analyzer.json), I uploaded the collection on Elasticsearch. In order to complete that task I created the programm createcollection.py. 
 
